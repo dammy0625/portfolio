@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     text-align: center;
     background-color: antiquewhite;
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    
 }
 .dami{
     position: absolute;
@@ -35,13 +38,13 @@ body{
 .pic{
     width: 200px;
     height: 200px;
-    background-color: rgb(63, 81, 133);
+    background-color:  rgb(63, 81, 133)  ;
     position: absolute;
     left: 80%;
     top: 50px;
     transform: translateX(-50%);
     border-radius: 50%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.185),rgba(0, 0, 0, 0.199)),url(./me.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.219)),url(./me.JPG);
     background-size: cover;
     background-position-x: -50px;
 }
@@ -133,7 +136,7 @@ body{
 .fest{
     width: 100vw;
     height: 200vh;
-    background-color: rgba(197, 159, 116, 0.534);
+    background-color: rgba(226, 228, 133, 0.466);
     position: relative;
     overflow-x: hidden;
 }
@@ -292,7 +295,7 @@ body{
     
     width: 100vw;
     height: 210vh;
-    background-color: rgba(218, 187, 159, 0.863);
+    background-color: rgba(218, 217, 159, 0.363);
     position: relative;
 
 }
@@ -331,7 +334,7 @@ body{
 }
 
 .third .uti{
-    width: 90vw;
+    width: 95vw;
    
     position: absolute;
     left: 50%;
@@ -540,6 +543,8 @@ body{
     }
     .fest .story{
         line-height: 20px;
+        font-size: 17px;
+        width: 90%;
     }
     .fest{
         height: 150vh;
@@ -553,21 +558,23 @@ body{
     }
     .get{
         font-size: 15px;
-        top: 600px;
-        padding: 5px;
+        top:580px;
+        padding: 10px;
     }
     .front{
         
         font-size: 15px;
-        top: 540px;
+        top: 520px;
     }
     .web{
         left: 50%;
         transform: translateX(-50%);
         font-size: 18px;
-        top: 420px;
+        top: 400px;
         text-align: center;
-        line-height: 30px;
+        line-height: 35px;
+       word-spacing: 3px;
+       width: 80%;
        
     }
     .des1{
@@ -586,10 +593,13 @@ body{
        
     }
     .hi{
-        font-size: 17px;
+        font-size: 20px;
         left: 50%;
         transform: translateX(-50%);
-        top: 350px;
+        top: 330px;
+         word-spacing: 2px;
+         
+        
     }
     .pic{
         width: 150px;
@@ -604,5 +614,14 @@ body{
     .dami{
         font-size: 15px;
         margin: 40px;
+    }
+    .about{
+        font-weight:lighter;
+        font-size: 17px;
+        color: rgb(0, 0, 0);
+    }
+    .sto{
+        font-size: 20px;
+      font-weight: 400;
     }
 }
