@@ -316,7 +316,7 @@ body{
     font-family: Geneva, Tahoma, sans-serif;
     backdrop-filter: blur(2px);
     border-radius: 5px;
-    transition: height 1s;
+    transition: height .4s;
     overflow: hidden;
     border-top: 2px solid rgba(0, 0, 0, 0.733);
     opacity: 0;
