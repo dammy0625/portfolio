@@ -8,7 +8,7 @@ html{
 }
 body{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.637);
     overflow-x: hidden;
     
 }
@@ -136,7 +136,7 @@ body{
 .fest{
     width: 100vw;
     height: 200vh;
-    background-color: rgba(228, 152, 133, 0.137);
+    background-color: rgba(235, 172, 157, 0.137);
     position: relative;
     overflow-x: hidden;
 }
@@ -354,7 +354,7 @@ body{
 .third li img{
     width: 100%;
     height: 60%;
-    object-fit: cover;
+    object-fit: contain;
     border-bottom: 2px solid rgba(0, 0, 0, 0.623);
 }
 .third li h1{
@@ -526,6 +526,9 @@ body{
         
         height: 400px;
         
+    }
+    .third li img{
+        object-fit: cover;
     }
     .third{
         height: 165vh;
