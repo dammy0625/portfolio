@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +19,7 @@ body{
     position: absolute;
     margin: 20px;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Fredoka', sans-serif;
     font-weight: lighter;
 }
 .ham{
@@ -51,11 +54,12 @@ body{
 .hi{
     position: absolute;
     text-transform: capitalize;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Hubballi', cursive;
     font-weight: lighter;
     top: 200px;
     left: 180px;
-    font-size: 20px;
+    font-size: 25px;
+    color: rgb(77, 76, 76);
 }
 .des1{
     width: 100px;
@@ -98,7 +102,7 @@ body{
 }
 .web{
     position: absolute;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-weight: lighter;
     top: 250px;
     left: 200px;   
@@ -112,19 +116,20 @@ body{
     top: 350px;
     left: 50%;
     transform: translateX(-50%);
-    font-family: Geneva, Tahoma, sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-weight: lighter;
+    color: rgb(77, 76, 76);
 }
 .get{
     position: absolute;
     top: 400px;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px solid rgba(0, 0, 0, 0.562);
+    border: 1px solid rgb(77, 76, 76);
     padding: 10px;
-    font-family: Geneva, Tahoma, sans-serif;
+    font-family: 'Hubballi', cursive;
     border-radius: 5px;  
-    font-weight: 510;
+    font-weight: bolder;
 }
 .abt{
     width: 100vw;
@@ -150,8 +155,8 @@ body{
     text-transform: uppercase;
     position: absolute;
     font-weight:lighter;
-    font-size: 15px;
-    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-family: 'Hubballi', cursive;
     left: 50%;
     transform: translateX(-50%);
     top: 50px;
@@ -163,7 +168,7 @@ body{
     position: absolute;
     font-weight:lighter;
     font-size: 20px;
-    font-family: Geneva, Tahoma, sans-serif;
+    font-family: 'Fredoka', sans-serif;
     left: 50%;
     transform: translateX(-50%);
     top: 90px;
@@ -184,13 +189,13 @@ body{
 .fest .story{
     width: 80%;
     position: absolute;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Hubballi', cursive;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     font-weight: lighter;
     top: 500px;
-    font-size: 13px;
+    font-size: 17px;
     text-align: start;
     line-height: 30px;
 }
@@ -209,7 +214,7 @@ body{
     background-color: rgba(197, 159, 116, 0.534);
     padding: 7px;
     border-radius: 40px;
-    font-family:Geneva, Tahoma, sans-serif;
+    font-family: 'Hubballi', cursive;
     margin: 30px;
     font-size: 15px;
 }
@@ -294,7 +299,7 @@ body{
 .third{
     
     width: 100vw;
-    height: 210vh;
+    height: 700px;
     background-color: rgba(218, 217, 159, 0.137);
     position: relative;
 
@@ -331,11 +336,14 @@ body{
 .drop li{
     margin: 20px;
     cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .third .uti{
     width: 95vw;
-   
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -343,66 +351,72 @@ body{
     top: 160px;
 }
 .third .ut{
-    width: 100%;
+    width: 33%;
     height: 400px;
     background-color: white;
     margin-top: 20px;
     border-radius: 5px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.192);
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
     overflow: hidden;
+   
 }
 .third li img{
     width: 100%;
-    height: 60%;
+    height: 30%;
     object-fit: contain;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.623);
+    
 }
 .third li h1{
-    position: absolute;
+   
     text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
-    color: rgba(0, 0, 0, 0.836);
-    left: 10px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.952);
+    
+    margin-top: 10px;
+    
 }
 .third li h6{
-    position: absolute;
-    font-family: Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    color: rgba(0, 0, 0, 0.74);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    color: rgb(77, 76, 76);
     left: 10px;
-    margin-top: 50px;
-    width: 80%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 10px;
+    font-weight: lighter;
     text-align: start;
 }
 .third .ut ul{
-    position: absolute;
+    
     list-style-type: none;
     display: flex;
-    margin-top: 110px;
-    margin-left: 40px;
+    margin-top: 20px;
+    margin-left: 0px;
     
-    width: 80%;
-    flex-direction: row;
+    width: 90%;
     flex-wrap: wrap;
 }
 .third .ut li{
-    font-family: Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    color: rgba(0, 0, 0, 0.74);
-    margin-left: 30px;
-    font-weight: bolder;
+    font-family: 'Hubballi', cursive;
+    font-size: 13px;
+    color: grey;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.third a{
+    text-decoration: none;
+    color: black;
+    font-size: bolder;
 }
 .third .ut h5{
-    position: absolute;
-    margin-top: 120px;
-    right: 20px;
-    font-family: Geneva, Tahoma, sans-serif;
+    
+    margin-top: 40px;
+    font-family: 'Fredoka', sans-serif;
     font-size: 12px;
     background-color: rgba(218, 187, 159, 0.863);
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     font-weight: lighter;
 }
@@ -411,7 +425,7 @@ body{
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-size: 13px;
     background-color: rgba(135, 184, 199, 0.938);
     padding: 5px;
@@ -440,8 +454,8 @@ body{
     top: 370px;
     left: 50%;
     transform: translateX(-50%);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
+    font-family: 'Hubballi', cursive;
+    font-size: 15px;
 }
 .four h5{
     position: absolute;
@@ -450,7 +464,7 @@ body{
     transform: translateX(-50%);
     border: 1px solid rgba(0, 0, 0, 0.562);
     padding: 10px;
-    font-family: Geneva, Tahoma, sans-serif;
+    font-family: 'Fredoka', sans-serif;
     border-radius: 5px;  
     font-weight: 510;
 }
@@ -499,39 +513,47 @@ body{
         height: 150px;
         top: 200px;
     }
+    .four{
+        height: 700px;
+    }
     .third .ut h5{
-        font-size: 10px;
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .third .ut{
+        width: 100%;
+        height: 40%;
     }
     .third .ut li{
         font-size: 8px;
-        height: 18px;
+        height: 17px;
+        margin-top: 2px;
         
     }
-    .third .ut ul{
-        margin-left: 20px;
-        overflow: hidden;
-        width: 90%;
-        margin-left: 10px;
-        margin-top: 90px;
-       
-    }
+    
     .third li h1{
         font-size: 11px;
     }
     .third li h6{
         font-size: 9px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .third li{
         
-        height: 400px;
+        height: 700px;
         
     }
     .third li img{
         object-fit: cover;
     }
+    .third .uti{
+        
+        height: 60%;
+        flex-wrap: wrap;
+    }
     .third{
-        height: 165vh;
+        height: 1000px;
+        margin-top: 50px;
     }
     .drop{
         width: 40vw;
@@ -541,8 +563,12 @@ body{
         height: 20vh;
     }
     .sec li{
-        margin: 20px;
+        margin: 10px;
         font-size: 14px;
+    }
+    .sec{
+        height:400px;
+        
     }
     .fest .story{
         line-height: 30px;
@@ -550,7 +576,8 @@ body{
         width: 95%;
     }
     .fest{
-        height: 205vh;
+        height: 1500px;
+        margin-top:0;
     }
     .im{
         width: 50%;

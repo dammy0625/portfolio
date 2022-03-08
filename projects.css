@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,10 +13,10 @@ body{
     scroll-behavior: smooth;
 }
 .dami{
-    position: absolute;
+    
     margin: 20px;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-weight: lighter;
 }
 .ham{
@@ -36,83 +39,11 @@ body{
     text-transform: uppercase;
     position: absolute;
     font-weight:lighter;
-    font-size: 15px;
-    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    font-family: 'Hubballi', cursive;
     left: 10%;
     top: 140px;
     color: rgba(0, 0, 0, 0.596);
-}
-.uti{
-    width: 95vw;
-   
-   height: 20px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    list-style-type: none;
-    top: 180px;
-    
-    
-}
-.ut{
-    width: 100%;
-    height: 400px;
-    background-color: white;
-    margin-top: 40px;
-    border-radius: 5px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.192);
-    overflow: hidden;
-}
-.ut img{
-    width: 100%;
-    height: 60%;
-    object-fit: contain;
-   
-}
-.ut h1{
-    position: absolute;
-    text-transform: uppercase;
-    font-family: Tahoma, sans-serif;
-    font-size: 12px;
-    color: rgba(0, 0, 0, 0.966);
-    left: 10px;
-}
-.ut h6{
-    position: absolute;
-    font-family: Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    color: rgba(0, 0, 0, 0.74);
-    left: 10px;
-    margin-top: 50px;
-    width: 80%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: start;
-}
-.ut ul{
-    position: absolute;
-    list-style-type: none;
-    display: flex;
-    margin-top: 120px;
-    margin-left: 40px;
-}
-.ut li{
-    font-family: Geneva, Tahoma, sans-serif;
-    font-size: 10px;
-    color: rgba(0, 0, 0, 0.74);
-    margin-left: 10px;
-    font-weight: bolder;
-}
-.ut h5{
-    position: absolute;
-    margin-top: 120px;
-    right: 20px;
-    font-family: Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    background-color: rgba(218, 187, 159, 0.863);
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: lighter;
 }
 .drop{
     width: 30vw;
@@ -135,7 +66,6 @@ body{
     overflow: hidden;
     border-top: 2px solid rgba(0, 0, 0, 0.733);
     opacity: 0;
-    z-index: 9;
 }
 .drip{
     height: 40vh;
@@ -147,6 +77,89 @@ body{
 .drop li{
     margin: 20px;
     cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.uti{
+   margin-top: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 100%;
+    
+}
+.ut{
+    width: 45%;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    overflow: hidden;
+   
+}
+li img{
+    width: 100%;
+    height: 30%;
+    object-fit: contain;
+    
+}
+li h1{
+   
+    text-transform: uppercase;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.938);
+    
+    margin-top: 10px;
+    
+}
+li h6{
+    
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.74);
+    left: 10px;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 10px;
+    color: rgb(77, 76, 76);
+    font-weight: lighter;
+    text-align: start;
+}
+.ut ul{
+    
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0px;
+    
+    width: 90%;
+    flex-wrap: wrap;
+}
+.ut li{
+    font-family: 'Hubballi', cursive;
+    font-size: 14px;
+    color: rgb(53, 52, 52);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: bolder;
+}
+.ut h5{
+    
+    margin-top: 40px;
+    
+    font-family: 'Fredoka', sans-serif;
+    font-size: 12px;
+    background-color: rgba(218, 187, 159, 0.863);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: lighter;
 }
 
 
@@ -163,6 +176,7 @@ body{
     }
     .ut h5{
         font-size: 10px;
+        margin-top: 30px;
     }
     .ut h1{
         font-size: 11px;
@@ -175,7 +189,7 @@ body{
        
     }
     .ut li{
-        font-size: 8px;
+        font-size: 10px;
         margin-bottom: 5px;
     }
     .ut ul{
@@ -183,6 +197,17 @@ body{
         width: 80%;
         display: flex;
         flex-wrap: wrap;
-        margin-top:100px ;
+        margin-top:10px ;
+    }
+    .about{
+        top: 100px;
+    }
+    .ut{
+        width: 100%;
+        height: inherit;
+    }
+    .uti{
+        margin-top: 100px;
+        
     }
 }
